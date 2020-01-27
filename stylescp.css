@@ -1,0 +1,48 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Palanquin Dark', sans-serif;;
+  color:white;
+  text-align: center;
+  font-size: 300%;
+}
+
+
+.card img {
+    height:150px;
+    width:50%;
+    border:none;
+}
+
+.fa-coffee{       /*targets the fa-coffee class* tthe extra fa is not part of the class name*/
+	color:#FF9800;
+}
+
+span {                 /*we added the span tag to the words for each botton, now we target the span items and add 10px at the left side.*/
+	padding-left: 10px;
+}
+
+a { 
+    color:gray;
+    text-decoration:none;
+}
+
+a:hover, a:focus {
+    text-decoration:underline;
+}
+
+
+li a:hover:not(.logo) {
+
+}   
+
+.card {
+	border:none;
+}
+
+form {
+	margin-left: 20px;
+}
+
